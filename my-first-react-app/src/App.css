@@ -1,0 +1,38 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo{
+  color: firebrick;
+  animation: App-logo-spin infinite 30s linear;
+  height: 3em;
+  
+}
+
+.App-header {
+  height: 200px;
+  padding: 30px;
+  color:#0A2493;
+  border: 50px firebrick;
+  background-color:#0AD0D0;
+  background-blend-mode: luminosity;
+  margin: 10px 20px;
+
+}
+
+
+.App-title {
+  font-size: 20px;
+  text-align: top center;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin{
+  from {transform: skew(180deg);}
+  to {transform: skew(360deg);}
+} 
